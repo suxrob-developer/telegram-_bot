@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./tree.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    max-width: 400px;
+    width: 100%;
+    outline: none;
+    box-shadow: rgba(250, 16, 20, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(10px);
+    gap: 20px;
+    padding: 20px;
+}
+.form input,
+.form textarea{
+    outline: none;
+    box-shadow: rgba(250, 16, 20, 0.35) 0px 5px 15px;
+    width: 100% ;
+    padding: 8px 5px;
+    font-size: 16px;
+    background-color: transparent ;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.form button{
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid grey;
+    color: white;
+    background-color: rgb(40, 19, 59);
+}
+.form button:hover{
+    background-color: aquamarine;
+    color: black;
+    border: 2px solid darkorchid;
+    cursor: pointer;
+}
